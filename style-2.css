@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.prog {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background: #151726;
+    font-family: "Roboto",sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.bolder_text_down {
+    font-weight: bold !important;
+    font-size: large !important;
+}
+.w_100 {
+    width: 100% !important;
+}
+.back_btn {
+    background-color: rgb(222, 193, 26) !important;
+}
+.border_nav {
+    border: 2px solid black !important;
+    border-radius: 20%;
+    color: black !important;
+    background-color: rgb(222, 193, 26) !important;
+}
+.progress-title {
+    width: 100%;
+    height: auto;
+}
+.progress-title h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+}
+.progress {
+    height: 20px;
+    background: #171b3c;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar {
+    border-radius: 20px;
+    border: 1px solid #000;
+    animation: animate-positive 2s;
+}
+.progress .progress-value {
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #171b3c;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+
+}
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+.w_down {
+    width: 17vw !important;
+    margin-top: 25px !important;
+    margin-bottom: 22px !important;
+    height: 50px !important;
+}
+.text_black_compet {
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+.nav-link.active{
+    background-color: rgb(234, 235, 228) !important;
+    color: black !important;
+}
+.white_back {
+    background-color: white !important;
+}
+.back_div {
+    background-color: rgb(224, 221, 25) !important;
+
+}
+.portfolio-item-caption-content {
+    color: white !important;
+}
+.white_icon {
+    color: #000000 !important;
+}
+.about_text {
+    color: #000000 !important;
+}
+.clr_real {
+    color:rgb(222, 193, 26) !important;
+}
+.bg_real {
+    background-color: rgb(222, 193, 26) !important;
+}
+.cadre {
+    border: none !important;
+    background-color: rgb(222, 193, 26) !important;
+}
+.portfolio-item-caption {
+    background-color: rgb(224, 221, 25) !important;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
+.bouton1 {
+    width: 6vw !important;
+    border-color: rgb(222, 193, 26) !important;
+    border-top: none !important;
+    border-left: none !important;
+    background-color: white !important;
+    height: 7vh !important;
+    font-weight: bolder !important;
+
+}
+.add_back {
+     background-color: rgb(222, 193, 26) !important;
+     color: white !important;
+}
+.remove_bg {
+    background-color: white !important;
+    color: black !important;
+}
+.bouton2{
+    width: 6vw;
+    border-color: rgb(222, 193, 26);
+    border-top: none;
+    background-color: rgb(222, 193, 26);
+    height: 7vh;
+    font-weight: bolder;
+    color: white !important;
+
+}
+.bouton3{
+    width: 6vw !important;
+    border-color: rgb(222, 193, 26) !important;
+    border-top: none !important;
+    background-color: rgb(222, 193, 26) !important;
+    font-weight: bolder !important;
+    color: white !important;
+    height: 7vh !important;
+}
+
+
+.nav-link {
+    color: rgb(222, 193, 26) !important;
+}
+.bolder_text {
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+.white_text {
+    color: white !important;
+}
+
+ .lowercase_text {
+    text-transform: initial !important;
+}
+.clr {
+    color: rgb(224, 221, 25) !important;
+}
+.text_black {
+    color: black !important;
+}
+.transform_none {
+    text-transform: none !important;
+}
+.bg_black {
+    background-color: #000100 !important;
+}
+.text_transition {
+    transition-duration: 3s !important;
+    transition-timing-function: ease-in-out !important;
+}
+.menu_button {
+    background-color: rgb(24, 22, 9) !important;
+    color: aliceblue !important;
+}
+.back_color {
+    background-color: rgb(10, 10, 10) !important;
+}
+.text_about {
+    color: rgb(222, 193, 26) !important;
+}
+.menu_hover:hover {
+    color: rgb(4, 4, 4) !important;
+    background-color: white !important;
+}
+.border_nocolor {
+    border-color: rgb(222, 193, 26) !important;
+}
+.event_hover:hover{
+    background-color: rgb(222, 193, 26) !important;
+}
+.black_text {
+    color: #000000 !important;
+}
+.niveau {
+    font-style: italic !important;
+}
+.magrin_lef {
+    margin-left: 3vw !important;
+}
+.under_line {
+    text-decoration-line: underline !important;
+    /**color: rgb(162, 228, 8) !important;*/
+    color: black !important;
+}
+.hover_button:hover {
+    color: white !important;
+    background-color: rgb(222, 193, 26) !important;
+    transition-timing-function: ease-in-out !important;
+    transition-timing-function: 3000ms !important;
+}
+.prog_bar_color {
+    background-color: rgb(222, 193, 26) !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.bestcolor {
+    background-color: rgb(222, 193, 26) !important;
+}
+.prog {
+    height: 4vh;
+}
+.hover_color:hover {
+    color: white !important;
+}
+.mt_pt {
+    padding-top: 0 !important;
+}
+.font_family {
+    font-family: monospace !important;
+}
+.menu_button {
+    color: rgb(222, 193, 26) !important;
+    font-weight: bold !important;
+}
+.text_shadow {
+    box-shadow : 4em !important;
+}
+.green_text {
+    color: rgb(222, 193, 26) !important;
+}
+.nav_background {
+    color: rgb(4, 104, 17) !important;
+}
+.text_align {
+    text-align: left !important;
+}
+.black {
+    color: black;
+}
+.text_margin_left {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.text_margin_left .green_text {
+    padding-top: 0 !important;
+    padding-top: 0 !important;
+}
+.line {
+    text-decoration: underline !important;
+    color: rgb(226, 212, 16) !important;
+}
+.bg_jaune {
+    background-color: rgb(222, 193, 26) !important;
+}
+.nav-link1 {
+    color: rgb(222, 193, 26) !important;
+    text-decoration: none !important;
+}
+.td_none {
+    text-decoration: none !important;
+}
+.under_line2 {
+    color: #000000 !important;
+    font-size: x-large !important;
+    text-decoration: underline !important;
+    text-decoration-color: #000000 !important;
+}
+.in {
+    color: white!important;
+    font-size: x-large !important;
+}
+.under_line1 {
+    font-size:large !important;
+}
+.mar_lef {
+    margin-left: 0% !important;
+}
+.progress-bar {
+    margin-top: 3vh !important;
+}
+.reseau {
+    margin-left: 0vw !important;
+}
+.back_transparent {
+    background-color: aliceblue;
+    padding-top: 0 !important;
+}
+.title_modal_color {
+    color: rgb(222, 193, 26) !important;
+    text-transform: none;
+
+}
+.hover_color {
+   background-color : rgb(226, 212, 16) !important;
+   color: black !important;
+}
+.cls {
+    width: 1vw !important;
+}
+.color_b {
+    color: black !important;
+}
+.mg_botom {
+    margin-bottom: 6vh !important;
+}
